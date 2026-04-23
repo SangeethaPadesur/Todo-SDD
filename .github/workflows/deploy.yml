@@ -27,7 +27,7 @@ jobs:
     - name: Build with verbose output
       run: |
         echo "Building application..."
-        npm run build
+        npx vite build
         echo "Build completed"
         ls -la dist/
         
