@@ -1,8 +1,8 @@
 import React from 'react';
-import { Task } from '@/types/task.types';
-import { useTaskContext } from '@/context/TaskContext';
-import { Button } from '@/components/common/Button';
-import { formatDate } from '@/utils/dateUtils';
+import { Task } from '../../types/task.types';
+import { useTaskContext } from '../../context/TaskContext';
+import { Button } from '../common/Button';
+import { formatDate } from '../../utils/dateUtils';
 import styles from './TaskItem.module.css';
 
 interface TaskItemProps {

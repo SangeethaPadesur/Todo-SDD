@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { storageService } from '../storageService';
-import { Task } from '@/types/task.types';
+import { Task } from '../../types/task.types';
 
 describe('storageService', () => {
   const mockTask: Task = {

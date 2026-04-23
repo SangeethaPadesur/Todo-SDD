@@ -1,4 +1,4 @@
-import { TaskFormData, TaskFormErrors } from '@/types/task.types';
+import { TaskFormData, TaskFormErrors } from '../types/task.types';
 
 /**
  * Validation constants

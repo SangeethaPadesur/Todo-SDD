@@ -1,4 +1,4 @@
-import { Task } from '@/types/task.types';
+import { Task } from '../types/task.types';
 
 const STORAGE_KEY = 'todo_tasks';
 

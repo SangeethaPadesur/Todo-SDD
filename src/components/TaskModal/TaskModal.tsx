@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { useTaskContext } from '@/context/TaskContext';
-import { TaskFormData, TaskFormErrors } from '@/types/task.types';
-import { validationService } from '@/services/validationService';
-import { Modal } from '@/components/common/Modal';
-import { Input } from '@/components/common/Input';
-import { Button } from '@/components/common/Button';
+import { useTaskContext } from '../../context/TaskContext';
+import { TaskFormData, TaskFormErrors } from '../../types/task.types';
+import { validationService } from '../../services/validationService';
+import { Modal } from '../common/Modal';
+import { Input } from '../common/Input';
+import { Button } from '../common/Button';
 import styles from './TaskModal.module.css';
 
 /**

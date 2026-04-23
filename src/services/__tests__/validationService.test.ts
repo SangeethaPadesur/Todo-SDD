@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { validationService } from '../validationService';
-import { TaskFormData } from '@/types/task.types';
+import { TaskFormData } from '../../types/task.types';
 
 describe('validationService', () => {
   const validFormData: TaskFormData = {
