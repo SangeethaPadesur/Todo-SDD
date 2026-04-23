@@ -1,9 +1,9 @@
 import { createContext, useContext, useReducer, useEffect, ReactNode } from 'react';
-import { Task, TaskFormData } from '@/types/task.types';
-import { AppState, TaskAction } from '@/types/state.types';
-import { storageService } from '@/services/storageService';
-import { generateId } from '@/utils/idGenerator';
-import { getCurrentTimestamp } from '@/utils/dateUtils';
+import { Task, TaskFormData } from '../types/task.types';
+import { AppState, TaskAction } from '../types/state.types';
+import { storageService } from '../services/storageService';
+import { generateId } from '../utils/idGenerator';
+import { getCurrentTimestamp } from '../utils/dateUtils';
 
 /**
  * Initial state

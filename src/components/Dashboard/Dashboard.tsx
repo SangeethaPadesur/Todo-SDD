@@ -1,8 +1,8 @@
 import React from 'react';
-import { useTaskContext } from '@/context/TaskContext';
-import { TaskList } from '@/components/TaskList';
-import { TaskModal } from '@/components/TaskModal';
-import { Button } from '@/components/common/Button';
+import { useTaskContext } from '../../context/TaskContext';
+import { TaskList } from '../TaskList';
+import { TaskModal } from '../TaskModal';
+import { Button } from '../common/Button';
 import styles from './Dashboard.module.css';
 
 /**

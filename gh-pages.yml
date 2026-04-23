@@ -1,0 +1,15 @@
+# GitHub Pages Deployment Configuration
+# This file is for reference - actual deployment uses .github/workflows/deploy.yml
+
+name: Deploy to GitHub Pages
+description: Deploy TODO List App to GitHub Pages
+
+# Build settings for GitHub Pages
+build:
+  command: npm run build
+  publish: dist
+
+# Environment
+environment:
+  name: github-pages
+  url: ${{ steps.deployment.outputs.page_url }}
